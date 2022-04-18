@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="broadcaster" pkg="robot_test" type="broadcaster.py" respawn="false" > </node> 
+
+  <node name="listener" pkg="robot_test" type="listener.py" respawn="false" output="screen"  > </node>
+  
+</launch>
